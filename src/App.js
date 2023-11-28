@@ -28,7 +28,7 @@ document.body.classList.remove("bg-warning")
   const toggleMode = (cls) => {
     removeBodyClasses();
     document.body.classList.add('bg-'+cls)
-    if (mode === "light") {
+    if (mode=== "light") {
       setMode("dark");
       setBn("light");
       document.body.style.backgroundColor = "white";
